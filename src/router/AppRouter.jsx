@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter, Routes, Route, useLocation } from 'react-router-dom';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import { HomeScreen } from "../home/pages/HomeScreen";
 import { AboutUsScreen } from "../home/pages/AboutUsScreen";
 import { LoginScreen } from "../auth/pages/LoginScreen";
@@ -18,6 +18,7 @@ export const AppRouter = () => {
   return (
     <>
       <BrowserRouter>
+        <NavbarMenu />
         <Routes>
           <Route path="/login" element={<LoginScreen />} />
           <Route path="/register" element={<RegisterScreen />} />
@@ -28,11 +29,10 @@ export const AppRouter = () => {
           <Route path="/MenSection" element={<MenSectionScreen />} />
           <Route path="/Product" element={<ProductScreen />} />
           <Route path="/UnisexSection" element={<UnisexSectionScreen />} />
-          <Route path="/NavbarMenu" element={<NavbarMenu />} />
           <Route path="/WomenSection" element={<WomenSectionScreen />} />
           <Route path="/Error404" element={<Error404Screen />} />
-          <Route path="/Footer" element={<Footer />} />
         </Routes>
+        <Footer />
       </BrowserRouter>
     </>
   )

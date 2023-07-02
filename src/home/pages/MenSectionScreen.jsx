@@ -1,7 +1,7 @@
 import React from 'react'
 
-export const MenSectionSceen = () => {
+export const MenSectionScreen = () => {
   return (
-    <div>MenSectionSceen</div>
+    <div>MenSectionScreen</div>
   )
 }
