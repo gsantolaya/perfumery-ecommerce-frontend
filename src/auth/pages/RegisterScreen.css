@@ -1,0 +1,533 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-image: linear-gradient(
+        to right top,
+        #212529,
+        #343A40,
+        #495057,
+        #6C757D,
+        #ADB5BD,
+        #CED4DA,
+        #DEE2E6,
+        #E9ECEF,
+        #F8F9FA
+        );
+}
+.space{
+    height: 72px;
+}
+.navbar{
+    position:fixed !important;
+    top: 0px;
+}
+header{
+    font-family: 'Zen Dots', cursive;
+}
+.logo-navbar{
+    height: 60px;
+    padding: 0px;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: justify;
+}
+.superdiv{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    border: solid 3px black;
+    border-radius: 10px;
+    background-color: white;
+    border: none;
+    box-shadow: 5px 5px 30px black;
+    width: 80%;
+    padding: 30px;
+}
+.div-1{
+    text-align: center;
+}
+.div-2{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-around;
+}
+.informacion-personal{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.informacion-inicio-sesion{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.il{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin: 5px;
+}
+.checkbox{
+    margin:5px;
+}
+.controls{
+    margin: 0px;
+    border: solid 2px;
+    background-color: rgb(245, 245, 245);
+    border-radius: 5px;
+    height: 30px;
+}
+.controls:hover {
+	background-color: rgb(228, 228, 228);
+}
+.genero{
+    margin: 0px;
+}
+.option{
+    margin-left: 15px;
+}
+.link{
+    text-decoration: none;
+    color: black;
+}
+.link:hover {
+	text-decoration: underline;
+    color: black;
+}
+.button{
+    width: 250px;
+    height: 45px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin: 30px;
+    border-radius: 5px;
+    color: white;
+    background-color: black;
+    box-sizing: border-box;
+}
+.button:hover {
+    transform: scale(1.1);
+}
+.logo{
+    width: 300px;
+    margin:30px
+}
+.whatsapp-icon{
+    width: 50px;
+    height: 50px;
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+}
+footer{
+    font-family: 'Zen Dots', cursive;
+    font-size: 12px;
+}
+.button-footer{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 250px;
+    height: 30px;
+    color: black;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin: 5px;
+    text-decoration: none;
+}
+.footer-tt{
+    font-size: 16px;
+}
+.button-icon-footer{
+    height: 30px;
+    width: 30px;
+}
+.button-footer:hover{
+    color: black;
+    transform: scale(1.1);
+}  
+@media screen and (max-width: 576px){
+    .logo-navbar{
+        height: 60px;
+        padding: 0px;
+    }
+    main{
+        display: flex;flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: justify;
+    }
+    .superdiv{
+        margin-top: 0px;
+        margin-bottom: 0px;
+        border: none;
+        border-radius: 0px;
+        background-color: rgb(227, 227, 227);
+        border: none;
+        box-shadow: none;
+        width: 100%;
+        padding: 5px;
+    }
+    .div-1{
+        padding-top: 30px;
+        text-align: center;
+    }
+    .div-2{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: space-around;
+    }
+    .informacion-personal{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .informacion-inicio-sesion{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .il{
+        display: flex;
+        flex-direction: column;
+        width: 80%;
+        margin: 5px;
+    }
+    .checkbox{
+        margin:5px;
+    }
+    .controls{
+        margin: 0px;
+        border: solid 2px;
+        background-color: rgb(245, 245, 245);
+        border-radius: 5px;
+        height: 30px;
+    }
+    .controls:hover {
+        background-color: rgb(228, 228, 228);
+    }
+    .genero{
+        margin: 0px;
+    }
+    .option{
+        margin-left: 15px;
+    }
+    .link{
+        text-decoration: none;
+        color: black;
+        text-align: center;
+        width: 90%;
+    }
+    .link:hover {
+        text-decoration: underline;
+        color: black;
+    }
+    .button{
+        width: 250px;
+        height: 45px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-left: 20px;
+        padding-right: 20px;
+        margin: 30px;
+        border-radius: 5px;
+        color: white;
+        background-color: black;
+        box-sizing: border-box;
+    }
+    .button:hover {
+        transform: scale(1.1);
+    }
+    .logo{
+        width: 300px;
+        margin:30px
+    }
+    .whatsapp-icon{
+        width: 50px;
+        height: 50px;
+        position: fixed;
+        bottom: 30px;
+        right: 30px;
+    }
+    footer{
+        font-family: 'Zen Dots', cursive;
+    }
+    .button-footer{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        width: 250px;
+        height: 45px;
+        color: black;
+        padding-left: 10px;
+        padding-right: 10px;
+        margin: 5px;
+        text-decoration: none;
+    } 
+    #footer-1{
+        display: none !important;
+    }
+    #footer-3{
+        display: none !important;
+    }
+}
+@media screen and (min-width:577px) and (max-width: 768px){
+    main{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: justify;
+    }
+    .superdiv{
+        margin-top: 0px;
+        margin-bottom: 0px;
+        border: none;
+        border-radius: 0px;
+        background-color: rgb(227, 227, 227);
+        border: none;
+        box-shadow: none;
+        width: 100%;
+        padding: 30px;
+    }
+    .div-1{
+        text-align: center;
+    }
+    .div-2{
+        text-align: center;
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        justify-content: space-around;
+    }
+    .informacion-personal{
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .informacion-inicio-sesion{
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .il{
+        display: flex;
+        flex-direction: column;
+        width: 90%;
+        margin: 5px;
+    }
+    .checkbox{
+        margin:5px;
+    }
+    .controls{
+        margin: 0px;
+        border: solid 2px;
+        background-color: rgb(245, 245, 245);
+        border-radius: 5px;
+        height: 30px;
+    }
+    .controls:hover {
+        background-color: rgb(228, 228, 228);
+    }
+    .genero{
+        margin: 0px;
+    }
+    .option{
+        margin-left: 15px;
+    }
+    .link{
+        text-decoration: none;
+        color: black;
+    }
+    .link:hover {
+        text-decoration: underline;
+        color: black;
+    }
+    .button{
+        width: 250px;
+        height: 45px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-left: 20px;
+        padding-right: 20px;
+        margin: 30px;
+        border-radius: 5px;
+        color: white;
+        background-color: black;
+        box-sizing: border-box;
+    }
+    .button:hover {
+        transform: scale(1.1);
+    }
+    .logo{
+        width: 300px;
+        margin:30px
+    }
+    .whatsapp-icon{
+        width: 50px;
+        height: 50px;
+        position: fixed;
+        bottom: 30px;
+        right: 30px;
+    }
+    footer{
+        font-family: 'Zen Dots', cursive;
+    }
+    .button-footer{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        width: 250px;
+        height: 45px;
+        color: black;
+        padding-left: 10px;
+        padding-right: 10px;
+        margin: 5px;
+        text-decoration: none;
+    }
+    .button-icon-footer{
+        height: 40px;
+        width: 40px;
+    }
+    #footer-1{
+        display: none !important;
+    }
+    #footer-3{
+        display: none !important;
+    }
+}
+@media screen and (min-width:769px) and (max-width: 1077px){   
+    main{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: justify;
+    }
+    .superdiv{
+        margin-top: 50px;
+        margin-bottom: 50px;
+        border: solid 3px black;
+        border-radius: 10px;
+        background-color: white;
+        border: none;
+        box-shadow: 5px 5px 30px black;
+        width: 80%;
+        padding: 30px;
+    }
+    .div-1{
+        text-align: center;
+    }
+    .div-2{
+        text-align: center;
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        justify-content: space-around;
+    }
+    .informacion-personal{
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .informacion-inicio-sesion{
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .il{
+        display: flex;
+        flex-direction: column;
+        width: 80%;
+        margin: 5px;
+    }
+    .checkbox{
+        margin:5px;
+    }
+    .controls{
+        margin: 0px;
+        border: solid 2px;
+        background-color: rgb(245, 245, 245);
+        border-radius: 5px;
+        height: 30px;
+    }
+    .controls:hover {
+        background-color: rgb(228, 228, 228);
+    }
+    .genero{
+        margin: 0px;
+    }
+    .option{
+        margin-left: 15px;
+    }
+    .link{
+        text-decoration: none;
+        color: black;
+    }
+    .link:hover {
+        text-decoration: underline;
+        color: black;
+    }
+    .button{
+        width: 250px;
+        height: 45px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-left: 20px;
+        padding-right: 20px;
+        margin: 30px;
+        border-radius: 5px;
+        color: white;
+        background-color: black;
+        box-sizing: border-box;
+    }
+    .button:hover {
+        transform: scale(1.1);
+    }
+    .logo{
+        width: 300px;
+        margin:30px
+    }
+    .whatsapp-icon{
+        width: 50px;
+        height: 50px;
+        position: fixed;
+        bottom: 30px;
+        right: 30px;
+    }
+    footer{
+        font-family: 'Zen Dots', cursive;
+    }
+    .button-footer{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        width: 250px;
+        height: 45px;
+        color: black;
+        padding-left: 10px;
+        padding-right: 10px;
+        margin: 5px;
+        text-decoration: none;
+    }
+    .button-icon-footer{
+        height: 40px;
+        width: 40px;
+    }
+}

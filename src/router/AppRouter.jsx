@@ -30,7 +30,7 @@ export const AppRouter = () => {
           <Route path="/Product" element={<ProductScreen />} />
           <Route path="/UnisexSection" element={<UnisexSectionScreen />} />
           <Route path="/WomenSection" element={<WomenSectionScreen />} />
-          <Route path="/Error404" element={<Error404Screen />} />
+          <Route path="*" element={<Error404Screen />} />
         </Routes>
         <Footer />
       </BrowserRouter>

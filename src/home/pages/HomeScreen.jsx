@@ -191,7 +191,6 @@ export const HomeScreen = () => {
 
       <div>
         <img className="whatsapp-icon" src={WhatsAppIcon} alt="whatsapp-icon" />
-
       </div>
     </>
   )
