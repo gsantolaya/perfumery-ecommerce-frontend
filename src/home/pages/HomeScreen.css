@@ -1,0 +1,24 @@
+.encabezado{
+    text-align: center;
+    background-color: gray;
+    color: white;
+    font-family: 'Zen Dots', cursive;
+    padding-top: 30px;
+    padding-bottom: 15px;
+    margin: 0px;
+}
+.carousel-1{
+    height: 40px;
+    font-family: 'Zen Dots', cursive;
+}
+.title-section{
+    font-family: 'Zen Dots', cursive;
+    margin-top: 60px !important;
+}
+.whatsapp-icon{
+    width: 50px;
+    height: 50px;
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+}

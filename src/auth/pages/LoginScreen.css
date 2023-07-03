@@ -1,0 +1,756 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-image: linear-gradient(
+        to right top,
+        #212529,
+        #343A40,
+        #495057,
+        #6C757D,
+        #ADB5BD,
+        #CED4DA,
+        #DEE2E6,
+        #E9ECEF,
+        #F8F9FA
+      );
+}
+.space{
+    height: 72px;
+}
+.navbar{
+    position:fixed !important;
+    top: 0px;
+}
+header{
+    font-family: 'Zen Dots', cursive;
+}
+.logo-navbar{
+    height: 60px;
+    padding: 0px;
+}
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.div-1{
+    width: 60%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border: none;
+    border-radius: 10px;
+    background-color: white;
+    box-shadow: 5px 5px 30px black;
+}
+.content-logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 400px;
+    height: 400px;
+    margin: 0px;
+    padding: 0px;
+}
+#img-logo{
+    width: 350px;
+    height: 350px;
+    margin: 0px;
+    padding: 0px;
+}
+form{
+    width: 500px;
+    padding: 10px;
+    text-align: center;
+}
+fieldset{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.inp-contr{
+    align-self: flex-start;
+    margin-top: 5px;
+}
+.label-controls{
+    height: 40px;
+    margin: 5px;
+    width: 80px;
+}
+.controls{
+    width: 290px;
+    height: 40px;
+    margin: 5px;
+    border: solid 2px;
+    padding-left: 15px;
+    padding-right: 15px;
+    background-color: rgb(245, 245, 245);
+    border-radius: 5px;
+}
+.controls:hover {
+	background-color: rgb(228, 228, 228);
+}
+
+.links{
+    text-decoration: none;
+    color: black;
+    margin: 10px;
+}
+.links:hover {
+	text-decoration: underline;
+    color: black;
+}
+.button{
+    width: 250px;
+    height: 45px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin: 5px;
+    border-radius: 5px;
+    color: white;
+    background-color: black;
+    box-sizing: border-box;
+    box-shadow: 1px 1px 1px grey;
+}
+.button:hover {
+    transform: scale(1.1);
+}
+.button-facebook{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 250px;
+    height: 45px;
+    border: none;
+    background-color: #3b5998;
+    font-family: "klavika";
+    color: white;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin: 5px;
+    border-radius: 5px;
+    text-decoration: none;
+    box-shadow: 1px 1px 1px grey;
+}
+#facebook-icon{
+    height: 40px;
+    width: 40px;
+}
+#facebook-text{
+    margin: 0px;
+    padding: 0px;
+}
+.button-facebook:hover {
+    transform: scale(1.1);
+    color: white;
+}
+.button-google{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 250px;
+    height: 45px;
+    border: thin solid #888;
+    background-color: white;
+    font-family: serif;
+    color: #444;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin: 5px;
+    border-radius: 5px;
+    text-decoration: none;
+    box-shadow: 1px 1px 1px grey;
+}
+#google-icon{
+    height: 30px;
+    width: 30px;
+}
+#google-text{
+    margin: 0px;
+    padding: 0px;
+}
+.button-google:hover {
+    transform: scale(1.1);
+    color: #444;
+}   
+legend{
+    margin: 15px;
+}
+footer{
+    font-family: 'Zen Dots', cursive;
+    font-size: 12px;
+}
+.button-footer{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 250px;
+    height: 30px;
+    color: black;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin: 5px;
+    text-decoration: none;
+}
+.footer-tt{
+    font-size: 16px;
+}
+.button-icon-footer{
+    height: 30px;
+    width: 30px;
+}
+.button-footer:hover{
+    color: black;
+    transform: scale(1.1);
+}
+.whatsapp-icon{
+    width: 50px;
+    height: 50px;
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+}
+@media screen and (max-width: 576px){
+    body{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        background-image: none;
+    }
+    main{
+        margin: 0px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .div-1{
+        margin-top: 0px;
+        margin-bottom: 0px;
+        width: 100%;
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        border: none;
+        border-radius: 0px;
+        background-color: white;
+        border: none;
+        box-shadow: none;
+    }
+    .content-logo{
+        display: none;
+        justify-content: center;
+        align-items: center;
+        width: 350px;
+        height: 350px;
+        margin: 0px;
+        padding: 0px;
+    }
+    .inp-contr{
+        align-self: flex-start;
+        margin-top: 5px;
+        width: 100%;
+    }
+    form{
+        width: 80%;
+        padding: 10px;
+        text-align: center;
+    }
+    .label-controls{
+        margin: 0px;
+        width: 100%;
+        height: 20px;
+    }
+    .controls{
+        width: 100%;
+        height: 40px;
+        margin: 0px;
+        border: solid 2px;
+        padding-left: 15px;
+        padding-right: 15px;
+        background-color: rgb(245, 245, 245);
+        border-radius: 5px;
+    }
+    .controls:hover {
+        background-color: rgb(228, 228, 228);
+    }
+
+    .links{
+        text-decoration: none;
+        color: black;
+        margin: 10px;
+    }
+    .links:hover {
+        text-decoration: underline;
+        color: black;
+    }
+    .button{
+        width: 97%;
+        height: 45px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-left: 20px;
+        padding-right: 20px;
+        margin: 5px;
+        border-radius: 5px;
+        color: white;
+        background-color: black;
+        box-sizing: border-box;
+    }
+    .div-button-facebook{
+        margin: 0px;
+        padding: 0px;
+        width: 100%;
+        margin: 5px;
+    }
+    .button-facebook{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        width: 97%;
+        height: 45px;
+        border: none;
+        background-color: #3b5998;
+        font-family: "klavika";
+        color: white;
+        padding-left: 10px;
+        padding-right: 10px;
+        border-radius: 5px;
+        text-decoration: none;
+        box-shadow: 1px 1px 1px grey;
+    }
+    #facebook-icon{
+        height: 40px;
+        width: 40px;
+    }
+    #facebook-text{
+        margin: 0px;
+        padding: 0px;
+    }
+    .button-facebook:hover {
+        transform: scale(1.1);
+        color: white;
+    }
+    .div-button-google{
+        margin: 0px;
+        padding: 0px;
+        width: 100%;
+        margin: 5px;
+    }
+    .button-google{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        width: 97%;
+        height: 45px;
+        border: thin solid #888;
+        background-color: white;
+        font-family: serif;
+        color: #444;
+        padding-left: 10px;
+        padding-right: 10px;
+        margin: 5px;
+        border-radius: 5px;
+        text-decoration: none;
+        box-shadow: 1px 1px 1px grey;
+    }
+    #google-icon{
+        height: 30px;
+        width: 30px;
+    }
+    #google-text{
+        margin: 0px;
+        padding: 0px;
+    }
+    .button-google:hover {
+        transform: scale(1.1);
+        color: #444;
+    }   
+    .whatsapp-icon{
+        width: 40px;
+        height: 40px;
+        position: fixed;
+        bottom: 10px;
+        right: 10px;
+    }
+    #img-logo{
+        width: 100%;
+        height: auto;
+        margin: 0px;
+        padding: 0px;
+    }
+    #footer-1{
+        display: none !important;
+    }
+    #footer-3{
+        display: none !important;
+    }
+}
+@media screen and (min-width:500px) and (max-width: 768px){
+    body{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        background-image: linear-gradient(
+            to right top,
+            #212529,
+            #343A40,
+            #495057,
+            #6C757D,
+            #ADB5BD,
+            #CED4DA,
+            #DEE2E6,
+            #E9ECEF,
+            #F8F9FA
+          );
+    }
+    main{
+        width: 100%;
+        margin: 0px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .div-1{
+        margin-top: 50px;
+        margin-bottom: 50px;
+        width: 70%;
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        border: none;
+        border-radius: 10px;
+        background-color: white;
+        box-shadow: 5px 5px 30px black;
+    }
+    .content-logo{
+        display: none;
+        justify-content: center;
+        align-items: center;
+        width: 350px;
+        height: 350px;
+        margin: 0px;
+        padding: 0px;
+    }
+    .inp-contr{
+        align-self: flex-start;
+        margin-top: 5px;
+        width: 100%;
+    }
+    form{
+        width: 80%;
+        padding: 10px;
+        text-align: center;
+    }
+    .label-controls{
+        margin: 0px;
+        width: 100%;
+        height: 20px;
+    }
+    .controls{
+        width: 100%;
+        height: 40px;
+        margin: 0px;
+        border: solid 2px;
+        padding-left: 15px;
+        padding-right: 15px;
+        background-color: rgb(245, 245, 245);
+        border-radius: 5px;
+    }
+    .controls:hover {
+        background-color: rgb(228, 228, 228);
+    }
+
+    .links{
+        text-decoration: none;
+        color: black;
+        margin: 10px;
+    }
+    .links:hover {
+        text-decoration: underline;
+        color: black;
+    }
+    .button{
+        width: 97%;
+        height: 45px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-left: 20px;
+        padding-right: 20px;
+        margin: 5px;
+        border-radius: 5px;
+        color: white;
+        background-color: black;
+        box-sizing: border-box;
+    }
+    .div-button-facebook{
+        margin: 0px;
+        padding: 0px;
+        width: 100%;
+        margin: 5px;
+    }
+    .button-facebook{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        width: 97%;
+        height: 45px;
+        border: none;
+        background-color: #3b5998;
+        font-family: "klavika";
+        color: white;
+        padding-left: 10px;
+        padding-right: 10px;
+        border-radius: 5px;
+        text-decoration: none;
+        box-shadow: 1px 1px 1px grey;
+    }
+    #facebook-icon{
+        height: 40px;
+        width: 40px;
+    }
+    #facebook-text{
+        margin: 0px;
+        padding: 0px;
+    }
+    .button-facebook:hover {
+        transform: scale(1.1);
+        color: white;
+    }
+    .div-button-google{
+        margin: 0px;
+        padding: 0px;
+        width: 100%;
+        margin: 5px;
+    }
+    .button-google{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        width: 97%;
+        height: 45px;
+        border: thin solid #888;
+        background-color: white;
+        font-family: serif;
+        color: #444;
+        padding-left: 10px;
+        padding-right: 10px;
+        margin: 5px;
+        border-radius: 5px;
+        text-decoration: none;
+        box-shadow: 1px 1px 1px grey;
+    }
+    #google-icon{
+        height: 30px;
+        width: 30px;
+    }
+    #google-text{
+        margin: 0px;
+        padding: 0px;
+    }
+    .button-google:hover {
+        transform: scale(1.1);
+        color: #444;
+    }   
+    .whatsapp-icon{
+        width: 40px;
+        height: 40px;
+        position: fixed;
+        bottom: 10px;
+        right: 10px;
+    }
+    #img-logo{
+        width: 100%;
+        height: auto;
+        margin: 0px;
+        padding: 0px;
+    }
+    #footer-1{
+        display: none !important;
+    }
+    #footer-3{
+        display: none !important;
+    }
+}
+@media screen and (min-width:769px) and (max-width: 1077px){
+    body{
+        margin: 0;
+        padding: 0;
+        background-image: linear-gradient(
+            to right top,
+            #212529,
+            #343A40,
+            #495057,
+            #6C757D,
+            #ADB5BD,
+            #CED4DA,
+            #DEE2E6,
+            #E9ECEF,
+            #F8F9FA
+          );
+    }
+    main{
+        margin:0px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .div-1{
+        margin: 0px;
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        border: solid 3px black;
+        border-radius: 0px;
+        background-color: white;
+        border: none;
+        box-shadow: none;
+    }
+    #img-logo{
+        width: 400px;
+        height: 400px;
+        margin: 0px;
+        padding: 0px;
+    }
+    form{
+        width: 500px;
+        padding: 10px;
+        text-align: center;
+    }
+    fieldset{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .inp-contr{
+        align-self: flex-start;
+        margin-top: 5px;
+    }
+    .label-controls{
+        height: 40px;
+        margin: 5px;
+        width: 80px;
+    }
+    .controls{
+        width: 290px;
+        height: 40px;
+        margin: 5px;
+        border: solid 2px;
+        padding-left: 15px;
+        padding-right: 15px;
+        background-color: rgb(245, 245, 245);
+        border-radius: 5px;
+    }
+    .controls:hover {
+        background-color: rgb(228, 228, 228);
+    }
+    
+    .links{
+        text-decoration: none;
+        color: black;
+        margin: 10px;
+    }
+    .links:hover {
+        text-decoration: underline;
+        color: black;
+    }
+    .button{
+        width: 250px;
+        height: 45px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-left: 20px;
+        padding-right: 20px;
+        margin: 5px;
+        border-radius: 5px;
+        color: white;
+        background-color: black;
+        box-sizing: border-box;
+    }
+    .button-facebook{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        width: 250px;
+        height: 45px;
+        border: none;
+        background-color: #3b5998;
+        font-family: "klavika";
+        color: white;
+        padding-left: 10px;
+        padding-right: 10px;
+        margin: 5px;
+        border-radius: 5px;
+        text-decoration: none;
+        box-shadow: 1px 1px 1px grey;
+    }
+    #facebook-icon{
+        height: 40px;
+        width: 40px;
+    }
+    #facebook-text{
+        margin: 0px;
+        padding: 0px;
+    }
+    .button-facebook:hover {
+        transform: scale(1.1);
+        color: white;
+    }
+    .button-google{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        width: 250px;
+        height: 45px;
+        border: thin solid #888;
+        background-color: white;
+        font-family: serif;
+        color: #444;
+        padding-left: 10px;
+        padding-right: 10px;
+        margin: 5px;
+        border-radius: 5px;
+        text-decoration: none;
+        box-shadow: 1px 1px 1px grey;
+    }
+    #google-icon{
+        height: 30px;
+        width: 30px;
+    }
+    #google-text{
+        margin: 0px;
+        padding: 0px;
+    }
+    .button-google:hover {
+        transform: scale(1.1);
+        color: #444;
+    }
+    .button-facebook:hover {
+        transform: scale(1.1);
+    }
+    .button:hover {
+        transform: scale(1.1);
+    }
+    legend{
+        margin: 15px;
+    }
+    .whatsapp-icon{
+        width: 50px;
+        height: 50px;
+        position: fixed;
+        bottom: 30px;
+        right: 30px;
+    }
+}
